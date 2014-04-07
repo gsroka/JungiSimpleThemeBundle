@@ -1,0 +1,27 @@
+{
+	"name" : "jungi/simple-theme-bundle",
+	"description" : "A simple theme bundle for the symfony2",
+	"type" : "symfony-bundle",
+	"authors" : [{
+			"name" : "Piotr Kugla",
+			"email" : "piku235@gmail.com"
+		}
+	],
+	"keywords" : [
+		"symfony2",
+		"environment"
+	],
+	"license" : "MIT",
+	"require" : {
+		"php" : ">=5.3.2",
+		"symfony/framework-bundle" : "~2.4",
+		"jungi/theme-bundle": "~1.0"
+	},
+	"autoload" : {
+		"psr-0" : {
+			"Jungi\\SimpleEnvironmentBundle" : ""
+		}
+	},
+	"target-dir" : "jungi/simple-theme-bundle",
+	"minimum-stability" : "stable"
+}

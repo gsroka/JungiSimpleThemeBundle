@@ -1,0 +1,8 @@
+{% extends '::layout.html.twig' %}
+
+{% block body %}
+<div class="bundle">
+    <h3 class="title">{{ app.request.attributes.get('_controller') }}</h3>
+    {% block bundle_content %}{% endblock %}
+</div>
+{% endblock %}
