@@ -19,9 +19,9 @@
 	},
 	"autoload" : {
 		"psr-0" : {
-			"Jungi\\SimpleEnvironmentBundle" : ""
+			"Jungi\\SimpleThemeBundle" : ""
 		}
 	},
-	"target-dir" : "jungi/simple-theme-bundle",
+	"target-dir" : "Jungi\\SimpleThemeBundle",
 	"minimum-stability" : "stable"
 }
